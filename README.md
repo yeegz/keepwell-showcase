@@ -20,7 +20,7 @@
 
 ## What it does
 
-Keepwell is open-source maintenance software for people who look after many buildings or a plant.
+Keepwell is maintenance software for people who look after many buildings or a plant. Its source is private during the pre-pilot.
 
 - **Residents report by QR code.** Scan the sign in a lobby or a cell, say what is wrong, get a tracking page. No app, no account.
 - **The estate is drawn as a section.** Every open job is pinned to the level or production line it is on, and a late one gets a revision cloud.
@@ -123,4 +123,4 @@ Next:
 
 ## Licence
 
-This showcase (text, images and the capture scripts in [`tools/`](tools)) is [MIT](LICENSE). Keepwell itself is open source, AGPL-3.0 for the core and apps and Apache-2.0 for the API contracts; its source repository is private, so this showcase has no code from it. The organisations, people, buildings and jobs in every image are synthetic demo data.
+This showcase (text, images and the capture scripts in [`tools/`](tools)) is [MIT](LICENSE). Keepwell's source is private during the pre-pilot, so this showcase has no code from it. The code carries an AGPL-3.0 licence (Apache-2.0 for the API contracts) for if and when it is published; that decision has not been made. The organisations, people, buildings and jobs in every image are synthetic demo data.
