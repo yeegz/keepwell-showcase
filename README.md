@@ -109,7 +109,7 @@ In a drawing set, the datum is the line everything is measured from. Keepwell dr
 | Events | Transactional outbox, SQS with a dead-letter queue, a Go notifier for email and signed webhooks |
 | Contracts | OpenAPI 3.1 and JSON Schema for events, with a test that fails on drift |
 | Infra | Terraform for AWS (ECS Fargate, RDS, CloudFront, WAF, Cognito, SQS); the demo on Google Cloud Run; a self-host compose file |
-| Tests | 316-test backend suite at commit `239707e` (14 Nov 2026; `mvnw clean verify`, Testcontainers, jqwik). One outbox crash-recovery test is timing-sensitive under full-suite load and is being tightened. |
+| Tests | 319-test backend suite (84 unit, 235 integration) at commit `451b5b3`: all passed on 17 Nov 2026 (`mvnw clean verify`, Testcontainers, jqwik). |
 
 ## Status and what's next
 
